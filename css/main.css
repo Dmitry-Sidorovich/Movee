@@ -276,6 +276,7 @@ h1,h2,h3,h4,h5,h6,p {
     height: 579px;
     border: 1px solid #EBEBEB;
     padding: 84px 0 79px 0;
+    text-align: center;
     transition: all .3s linear;
 }
 
@@ -284,7 +285,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .prices__card-item-title {
-    text-align: center;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 60px;
@@ -292,13 +292,11 @@ h1,h2,h3,h4,h5,h6,p {
 
 .prices__card-item-information {
     margin-bottom: 25px;
-    text-align: center;
     line-height: 21px;
 }
 
 .prices__card-item-price {
     margin-top: 63px;
-    text-align: center;
     font-size: 30px;
     font-weight: 600;
     line-height: 36px;
@@ -315,16 +313,13 @@ h1,h2,h3,h4,h5,h6,p {
 .prices__card-item-button {
     padding: 13px 79px;
     background-color: #FED100;
-    margin-left: 83px;
-    margin-right: 83px;
 }
-
-
 /* /Prices */
 
 /* Park */
-
-.park {}
+.park {
+    
+}
 
 /* /Park */
 
