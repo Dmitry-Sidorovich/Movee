@@ -25,7 +25,7 @@
                 <div class="header__content">
                     <div class="header__text">
                         <h1 class="header__title">Квартирные переезды</h1>
-                        <h2 class="header__subtitle">По Москве и области</h2>
+                        <h2 class="header__subtitle">По Минску и области</h2>
                     </div>
                     <a href="#" class="header__button">Заказать</a>
                     <div class="header__advantages">
@@ -98,7 +98,7 @@
                         <p class="prices__card-item-information">Переезд за 4 часа</p>
                     </div>
                     <div class="prices__card-item-price">8 490₽</div>
-                    <a href="#" class="prices__card-item-button">Заказать</a>
+                    <a href="#" class="order-button">Заказать</a>
                 </div>
                 <div class="prices__card-item">
                     <h4 class="prices__card-item-title">2-комнатная кв-ра</h4>
@@ -108,7 +108,7 @@
                         <p class="prices__card-item-information">Переезд за 4 часа</p>
                     </div>
                     <div class="prices__card-item-price">10 990₽</div>
-                    <a href="#" class="prices__card-item-button">Заказать</a>
+                    <a href="#" class="order-button">Заказать</a>
                 </div>
                 <div class="prices__card-item">
                     <h4 class="prices__card-item-title">3-комнатная кв-ра</h4>
@@ -118,16 +118,98 @@
                         <p class="prices__card-item-information">Переезд за 6 часов</p>
                     </div>
                     <div class="prices__card-item-price">16 490₽</div>
-                    <a href="#" class="prices__card-item-button">Заказать</a>
+                    <a href="#" class="order-button">Заказать</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="park" id="park"></section>
-    <section class="testimonials" id="testimonials"></section>
-    <section class="order"></section>
-    <section class="map"></section>
+    <section class="park" id="park">
+        <div class="container">
+            <h2 class="park__title">Автопарк</h2>
+            <h3 class="park__subtitle">10 видов автомобилей от 800 кг до 10 тонн</h3>
+            <ul class="park__select">
+                <li class="park__select__item">
+                    <input type="radio" id="select1" name="select" checked class="select-radio">
+                    <label for="select1">Газели</label>
+                </li>
+                <li class="park__select__item">
+                    <input type="radio" id="select2" name="select" class="select-radio">
+                    <label for="select2">Каблуки</label>
+                </li>
+                <li class="park__select__item">
+                    <input type="radio" id="select3" name="select" class="select-radio">
+                    <label for="select3">Грузовики</label>
+                </li>
+                
+            </ul>
+            <div class="park__content">
+                <a href="#" class="left-arrow"><img src="./images/park/left-arrow.svg" alt="arrow" class="arrow"></a>
+                <div class="park__content__text">
+                    <h4 class="park__content__title">Газель 3 метра</h4>
+                    <div class="park__features">
+                        <p class="park__feature">Ширина 2 м</p>
+                        <p class="park__feature">Высота 2 м</p>
+                        <p class="park__feature">Объем 16 м³</p>
+                        <p class="park__feature">Грузоподъемность 1,5 т</p>
+                    </div>
+                    <a href="#" class="order-button">Заказать</a>
+                </div>
+                <img src="./images/park/truck.png" alt="truck">
+                <a href="#" class="right-arrow"><img src="./images/park/right-arrow.svg" alt="arrow" class="arrow"></a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="testimonials__title">Отзывы</h2>
+            <div class="testimonials__content">
+                <div class="testimonials__item">
+                    <h3 class="testimonials__item__name">Ирина</h3>
+                    <h5 class="testimonials__item__rating">24.03.2019</h5>
+                    <p class="testimonials__item__review">Обращение к вам за помощью в переезде оставило только положительные впечатления. Хотелось отметить замечательного водителя газели Алексея. Были трудности с заездом во двор, он проявил себя как компетентный и профессиональный сотрудник, за что ему огромное...</p>
+                    <a href="#" class="testimonials__item__full">Читать полностью</a>
+                </div>
+                <div class="testimonials__item">
+                    <h3 class="testimonials__item__name">Светлана Васильевна</h3>
+                    <h5 class="testimonials__item__rating">13.09.2019</h5>
+                    <p class="testimonials__item__review">Сегодня ( 13.09.2019 ) мы переехали. Остались очень довольны, несмотря на то, что к нам опоздали на 1,5 часа. Морально были к этому готовы ( в прошлый переезд в другой фирме тоже опоздали на час). Водитель заранее позвонил, предупредил, что задерживается. Когда....</p>
+                    <a href="#" class="testimonials__item__full">Читать полностью</a>
+                </div>
+                <div class="testimonials__item">
+                    <h3 class="testimonials__item__name">Ольга Петрова</h3>
+                    <h5 class="testimonials__item__rating">11.11.2019</h5>
+                    <p class="testimonials__item__review">Могу на 100% порекомендовать компанию MOVEE и отметить, что цены фиксированы, что упрощает расчет. Безо всяких заморочек, в отличии от их конкурентов. Упаковали все качественно и быстро. Все вещи приехали в сохранности. Особлая благодарность Александру за его...</p>
+                    <a href="#" class="testimonials__item__full">Читать полностью</a>
+                </div>
+            </div>
+            <a href="#" class="testimonials__button">Все отзывы</a>
+        </div>
+    </section>
+    <section class="order">
+        <div class="container">
+            <h2 class="order__title">Закажи  переезд прямо сейчас</h2>
+            <h4 class="order__subtitle">Мы перезвоним в течении 10 секунд</h4>
+            <form action="#" class="order__form">
+                <div class="order__inputs">
+                    <input type="text" class="order__input" placeholder="Ваше имя" required>
+                    <input type="tel" class="order__input" placeholder="Телефон" required>
+                </div>
+                <div class="order__submit">
+                    <button type="submit" class="order__button">Перезвонить мне</button>
+                    <input type="checkbox" id="checkbox" class="order__checkbox-std" required>
+                    <label for="checkbox" class="order__checkbox" required>Даю согласие на обработку данных</label>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="map">
+            <div class="map__wrapper">
+                <a class="map__BSU" href="https://yandex.by/maps/org/biloruskyi_universytet/1306328558/?utm_medium=mapframe&utm_source=maps">БГУ</a>
+                <a class="map__BSU map__HIE" href="https://yandex.by/maps/157/minsk/category/university_college/184106140/?utm_medium=mapframe&utm_source=maps">ВУЗ в Минске</a>
+                <a class="map__BSU map__NII" href="https://yandex.by/maps/157/minsk/category/research_institutes/184106192/?utm_medium=mapframe&utm_source=maps">НИИ в Минске</a>
+                <iframe class="map__iframe" src="https://yandex.by/map-widget/v1/-/CCUMmTfW~C" frameborder="1" allowfullscreen="true"></iframe>
+            </div>
+    </section>
     <footer class="footer" id="footer"></footer>
 </body>
 </html>
